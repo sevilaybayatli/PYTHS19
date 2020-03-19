@@ -6,8 +6,8 @@ def sumsval(x, y):
 
    return z
 
-x=int(input("enter a first number"))
-y=int(input("enter a second number"))
+x=int(input("enter a first number "))
+y=int(input("enter a second number "))
 
 print("the result= ", sumsval(x,y))
 
@@ -16,10 +16,19 @@ def find_perimeter(h,w):
    p=2*(h+w)
    return p
 
-h=int(input("enter hight of rectangle"))
-w=int(input("enter the width of rectangle"))
+h=int(input("enter hight of rectangle "))
+w=int(input("enter the width of rectangle "))
 
 print("the perimeter of rectangle= ",find_perimeter(h,w))
+
+def convert_min(x):
+
+   change=60*x
+   return change
+
+x=int(input("enter number of minute" ))
+
+print ("the result= ", convert_min(x))
 
 
 

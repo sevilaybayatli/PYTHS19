@@ -1,0 +1,4 @@
+######HOW TO USE Github#################
+git add EX02.py
+git commit -m "new examples"
+git push

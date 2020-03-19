@@ -30,3 +30,18 @@ def median(n):
 print("the median number of these numbers is: ", median(nums))
 print("the median number of these numbers is: ", median(numb))
 
+def ndegress(num):
+   ans=True
+   n,tempn,i=2,2,2
+   while ans:
+      if str(tempn) in num:
+         i+=1
+         tempn=pow(n,i)
+      else:
+         ans=False
+   return i-1
+
+print(ndegress("2481632"))
+print(ndegress("248163264"))
+       
+     

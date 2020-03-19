@@ -1,4 +1,5 @@
 import sys
+#Write a Python program to count the number of each character of a given text of a text file
 text='''The sources and interpretation of the Declaration have been the subject of much scholarly inquiry.'''
 ptext=text.replace(" ","")
 print(ptext)
